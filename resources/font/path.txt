@@ -1,0 +1,3 @@
+FreeBSD cp to:
+
+  /usr/local/share/fonts/
