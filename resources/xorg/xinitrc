@@ -1,8 +1,6 @@
+# stop screen going black, must be executed before
+xset dpms 0 0 0 && xset s noblank  && xset s off
+
 # start slstatus and dwm
 slstatus &
 dwm
-
-# stop screen going black
-xset dpms 0 0 0 &&
-xset s noblank  &&
-xset s off
